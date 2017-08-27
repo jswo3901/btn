@@ -9,6 +9,7 @@ import {
 import Slot from './components/Slot'
 import Login from './components/Login'
 import TodoApp from './components/TodoApp/App'
+import Gallery from './components/Gallery/Gallery'
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
             <Route exact path="/slot" component={Slot} />
             <Route path="/login" component={Login} />
             <Route path="/todo" component={TodoApp} />
+            <Route path="/gallery" component={Gallery} />
 
 
 
